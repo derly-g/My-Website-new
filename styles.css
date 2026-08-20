@@ -11,11 +11,12 @@ header {
     text-align: center;
     padding: 2rem 0;
 }
-.small-image {
- max-width: 100%;
-  height: auto;
-  object-fit: cover;
+.container img {
+  width: 300px;
+  height: 200px;
+  object-fit: contain;
 }   
+
 #projects {
     padding: 2rem;
 }
