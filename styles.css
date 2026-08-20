@@ -11,7 +11,11 @@ header {
     text-align: center;
     padding: 2rem 0;
 }
-
+.small-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}   
 #projects {
     padding: 2rem;
 }
