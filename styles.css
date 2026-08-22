@@ -13,12 +13,11 @@ body {
   color: #0f172a;
   line-height: 1.6;
 }
-
 header {
   background-color: #0a2342;
   color: #ffffff;
   text-align: center;
-  padding: 3rem 1rem;
+  padding: 2rem 0;
 }
 
 header h1 {
@@ -31,68 +30,42 @@ header p {
   max-width: 800px;
   margin: 0 auto;
   font-size: 1.1rem;
-  opacity: 0.95;
 }
 
 .container img {
-  width: 100%;
-  max-width: 300px;
+  width: 300px;
   height: 200px;
   object-fit: contain;
   display: block;
   margin: 1rem auto;
-  border-radius: 8px;
 }
-
 #projects {
   padding: 2rem;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 .project {
   background-color: #ffffff;
-  margin-bottom: 2rem;
-  padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(10, 35, 66, 0.1);
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
-}
-
-.project:hover {
-  box-shadow: 0 6px 16px rgba(77, 166, 255, 0.2);
-  transform: translateY(-2px);
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  border: 1px solid #e0e7ff;
 }
 
 .project h2 {
   font-family: 'Playfair Display', serif;
   color: #0a2342;
   font-size: 1.8rem;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
 }
 
 .project p {
   font-size: 1rem;
   color: #334155;
 }
-
 footer {
   background-color: #0a2342;
   color: #ffffff;
   text-align: center;
-  padding: 2rem 1rem;
-  margin-top: 3rem;
-}
-
-footer a {
-  color: #4da6ff;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-footer a:hover {
-  color: #3b82f6;
-  text-decoration: underline;
+  padding: 1.5rem 0;
 }
 
 a {
@@ -100,20 +73,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
-@media (max-width: 768px) {
-  header h1 {
-    font-size: 2rem;
-  }
-  
-  .project {
-    padding: 1.5rem;
-  }
-  
-  .project h2 {
-    font-size: 1.5rem;
-  }
+footer a {
+  color: #4da6ff;
 }
